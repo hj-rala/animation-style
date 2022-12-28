@@ -1,3 +1,21 @@
+jump
+{
+animation: jump 1.3s cubic-bezier(0.785, 0.135, 0.15, 0.86) infinite;
+  transform-style: preserve-3d;
+  }
+  
+  
+@keyframes jump {
+  0%,
+  90%,
+  100% {
+    transform: translateY(-40px);
+  }
+  40% {
+    transform: translateY(20px);
+  }
+}
+
 1. 이미지 제자리 돌아감
 <div class="circle"  style="width:200px;">
 	<img src="../img/cloud-1.png" alt="" style="max-width:100%;">
